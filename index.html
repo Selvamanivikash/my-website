@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+     <link rel="stylesheet" href="style.css">
+
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5PMSRBBVXG"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-5PMSRBBVXG');
+</script>
+
+
+</head>
+<body>
+    <div class = "sidebar">
+        <h1>Welcome to My Home Page</h1>
+        <nav>
+            <ul>
+                 <li><a href = "#about">About</a></li>
+                 <li><a href = "#education">Education</a></li>
+                 <li><a href = "#skills">Skills</a></li>
+                 <li><a href = "#experience">Experience</a></li>
+                 <li><a href = "#projects">Projects</a></li>
+                 <li><a href = "#certifications">Certifications</a></li>
+                 <li><a href = "#contact">Contact</a></li>
+                 <li><a href = "#message">Message Me</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class ="content">
+        <header>
+            <h1>Welcome to My Portfolio</h1>
+        </header>
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I'm Vikash S, an aspiring Software Engineer and Computer Science graduate. I'm self-motivated with expertise in Java, Full-Stack Development, Web Technologies, and JavaScript. I have strong problem-solving skills and a focus on emerging technologies. </p>
+        </section>
+        <section id="education">
+            <h2>Education</h2>
+            <ul>
+                <li><strong>B.E. Computer Science</strong> – Muthayammal Engineering College (CGPA: 7.5, 2021-2025)</li>
+                <li><strong>HSC</strong>-Sri Ragavendra Metric Hr Sec School (87.1%, 2021)</li>
+                <li><strong>SSLC</strong>– Sri Ragavendra Metric Hr Sec School (84.8%, 2019)</li>
+            </ul>
+        </section>
+        <section id="skills">
+        <h2>Technical Skills</h2>
+        <ul>
+            <li>Languages: Java, SQL, HTML, CSS, JavaScript</li>
+            <li>Frameworks: React.js, Spring Boot</li>
+            <li>Tools: Eclipse, VS Code, MySQL, MS Package</li>
+            <li>Familiar: Data Structures</li>
+        </ul>
+    </section>
+        <section id="experience">
+            <h2>Experience</h2>
+            <p><string>Web Development Intern</string>– Livewire (April 2023, Namakkal)</p>
+            <ul>
+                <li>Developed and maintained responsive websites using HTML, CSS.</li>
+                <li>Collaborated with senior developers to improve user experience.</li>
+            </ul>
+        </section>
+        <section id ="projects">
+            <h2>Projects</h2>
+            <p><strong>Online Medical Cunsultation System</strong></p>
+            <ul>
+                <li>Patients consult healthcare professionals remotely.</li>
+                <li>Secure online payments with encrypted personal/medical data.</li>
+                <li>Technologies: HTML, CSS, JavaScript (Front-end), Java & React.js (Back-end), MySQL (Database).</li>
+            </ul>
+        </section>
+
+        <section id="certifications">
+            <h2>Certifications & Workshops</h2>
+            <ul>
+                <li>NPTEL: Internet of Things (IoT), Distributed Systems.</li>
+                <li>SDLC; Core Java.</li>
+            <li>Terv: Data Structures & Web Development.</li>
+            <li>Paper Presentation: “Blockchain of Technology” at Kongu Engineering College.</li>
+            <li>Workshops: Web Development (Sona College of Tech) & Cyber Security (Muthayammal Engineering College).</li>
+            </ul>
+        </section>
+        <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:selvamanivikash424@gmail.com">selvamanivikash424@gmail.com</a></p>
+        <p>Phone: +91 9384434218</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/vikash-s-1932a7263" target="_blank">Vikash S on LinkedIn</a></p>
+        </section>
+
+        <section id="message">
+    <h2>Message Me</h2>
+    <form id="messageForm">
+        <label for="name">Your Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Your Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="message">Your Message:</label><br>
+        <textarea id="messageText" name="message" rows="4" required></textarea><br><br>
+
+        <button type="submit">Send Message</button>
+    </form>
+    <p id="formResponse"></p>
+</section>
+    </main>
+    <footer>
+        <p>&copy; 2025 My Website</p>
+    </footer>
+    </div>
+    <script src= "script.js"></script>
+</body>
+</html>
